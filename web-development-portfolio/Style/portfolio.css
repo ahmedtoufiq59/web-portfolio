@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-
 /* Nav Style */
 .open-sans-normal{
     font-family: "Open Sans", sans-serif;
@@ -35,8 +34,6 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
 }
-
-
 /* Banner styles */
 .banner{
     display: flex;
@@ -56,13 +53,10 @@ nav ul li a{
     font-weight:bold ;
     font-size: 85px;
 }
-
-
 .banner-profile-pic{
     width: 584px;
     height: 676px;
 }
-
 /* main style */
 main{
     max-width: 1140px;
@@ -89,15 +83,91 @@ main{
     font-size: 20px;
     color: #474747;
 }
-
 .about-items{
     display: flex;
     justify-content: space-between;
 }
-/* Skill style */
+/* Skills style */
 .what{
     text-align: center;
-    margin: 0 120px;
+    margin: 130px 120px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-bottom: 130px;
+}
+
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+/* A summary of the resume styles */
+.resume{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.resume-titles{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-degree{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 0;
+}
+.resume-place{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+}
+.resume-text{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #757575;
+    margin-top: 18px;
+}
+/* Footer part */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 120px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"]{
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+    background: white;
+    padding: 18px 30px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 25px;
+    border: none;
+}
+footer textarea{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    background: white;
+    padding: 18px 30px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 25px;
+    border: none;
 }
 /* shared style */
 .dark2{
@@ -127,4 +197,8 @@ main{
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+}
+.my-button {
+    display: block;
+    margin: auto;
 }
